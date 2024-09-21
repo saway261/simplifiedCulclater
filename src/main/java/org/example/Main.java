@@ -24,7 +24,7 @@ public class Main {
     }
 
     if (Double.isNaN(result) | Double.isInfinite(result)) {
-      System.out.println("ゼロ除算は結果がNaNまたはInfinityになり、計算結果を正しく表示できません。");
+      System.out.println("計算結果を正しく表示できません。");
     } else {
       System.out.println("計算結果：" + num1 + operator + num2 + "=" + result);
     }
