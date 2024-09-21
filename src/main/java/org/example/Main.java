@@ -27,6 +27,7 @@ public class Main {
       System.out.println("計算結果を正しく表示できません。");
     } else {
       System.out.println("計算結果：" + num1 + operator + num2 + "=" + result);
+      System.out.println("計算はせいこうしました。");
     }
   }
 }
